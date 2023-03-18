@@ -38,6 +38,9 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
+## Print MongoDB Compass
+![MongoDB Compass](https://github.com/renatohvo/assets/raw/main/rhvopost-mongodb4/print-rhvopost-mongodb4.png)
+
 ## Autor
 
 Renato Henrique Vasconcelos
