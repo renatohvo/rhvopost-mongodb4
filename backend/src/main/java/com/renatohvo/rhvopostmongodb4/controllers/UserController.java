@@ -11,9 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.renatohvo.rhvopostmongodb4.models.dto.UserDTO;
 import com.renatohvo.rhvopostmongodb4.services.UserService;
 
+import io.swagger.annotations.Api;
+
 @RestController
 @RequestMapping(value = "/users")
-public class UserControllers {
+@Api(tags = "User Controller", value = "UserController", description = "Controller for Users")
+public class UserController {
 	
 	@Autowired
 	private UserService service;
