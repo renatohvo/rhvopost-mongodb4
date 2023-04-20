@@ -4,7 +4,7 @@
 ## Sobre o projeto
 [Link Postman Collection](https://elements.getpostman.com/redirect?entityId=21956516-8e69ba20-0dc5-4306-9f08-1e704a40b20e&entityType=collection "Link Postman Collection")
 
-Manutenção de Usuários, Postagens e Comentários.
+Manutenção de Usuários, Postagens e Comentários. [DevSuperior](https://github.com/devsuperior/nosql "https://github.com/devsuperior/nosql")
 
 Em Construção!
 
@@ -26,6 +26,9 @@ Em Construção!
 ```
 docker run -d -p 27017:27017 -v /data/db --name mongo1 mongo:4.4.3-bionic
 ```
+```
+docker exec -it mongo1 bash
+```
 
 ## Como executar o projeto
 
@@ -41,6 +44,9 @@ cd backend
 # executar o projeto
 ./mvnw spring-boot:run
 ```
+
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/renatohvo/assets/raw/main/rhvopost-mongodb4/modeloconceitual-rhvopost-mongodb4.png)
 
 ## Print MongoDB Compass
 ![MongoDB Compass](https://github.com/renatohvo/assets/raw/main/rhvopost-mongodb4/print-rhvopost-mongodb4.png)
