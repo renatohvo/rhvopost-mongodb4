@@ -6,8 +6,6 @@
 
 Manutenção de Usuários, Postagens e Comentários. [DevSuperior](https://github.com/devsuperior/nosql/blob/main/workshop-springboot2-mongo4/README.md "https://github.com/devsuperior/nosql")
 
-Em Construção!
-
 ## Tecnologias utilizadas
 
 - API REST
