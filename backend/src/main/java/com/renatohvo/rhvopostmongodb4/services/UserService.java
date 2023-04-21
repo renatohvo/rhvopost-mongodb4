@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.renatohvo.rhvopostmongodb4.models.dto.PostDTO;
 import com.renatohvo.rhvopostmongodb4.models.dto.UserDTO;
 import com.renatohvo.rhvopostmongodb4.models.entities.User;
 import com.renatohvo.rhvopostmongodb4.repositories.UserRepository;
@@ -50,6 +51,11 @@ public class UserService {
 	public void delete(String id) {
 		getEntityById(id);
 		repository.deleteById(id);
+	}
+	
+	public List<PostDTO> getUserPosts(String id) {
+		User user = getEntityById(id);
+		return user.getPosts().stream().map(x -> new PostDTO(x)).collect(Collectors.toList());
 	}
 
 	private void copyDtoToEntity(UserDTO dto, User entity) {
