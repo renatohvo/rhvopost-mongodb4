@@ -4,7 +4,7 @@
 ## Sobre o projeto
 [Link Postman Collection](https://elements.getpostman.com/redirect?entityId=21956516-8e69ba20-0dc5-4306-9f08-1e704a40b20e&entityType=collection "Link Postman Collection")
 
-Manutenção de Usuários, Postagens e Comentários. [DevSuperior](https://github.com/devsuperior/nosql "https://github.com/devsuperior/nosql")
+Manutenção de Usuários, Postagens e Comentários. [DevSuperior](https://github.com/devsuperior/nosql/blob/main/workshop-springboot2-mongo4/README.md "https://github.com/devsuperior/nosql")
 
 Em Construção!
 
